@@ -1,0 +1,4438 @@
+{
+  "powder-yard": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "tower",
+        "side": "right"
+      }
+    ],
+    "shortest": 2,
+    "destructiveActions": 1,
+    "validOrders": 1,
+    "possibleOrders": 1,
+    "rejectedOrder": null,
+    "components": [
+      [
+        "tower",
+        "powder",
+        "cargo",
+        "gate"
+      ]
+    ]
+  },
+  "break-the-chain": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west-tower",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "extend",
+        "id": "extension"
+      },
+      {
+        "kind": "dig",
+        "id": "east-tower",
+        "side": "left"
+      }
+    ],
+    "shortest": 5,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east-tower",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "west-tower",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "west-gate",
+        "powder",
+        "west-tower",
+        "cargo",
+        "east-tower",
+        "vault"
+      ]
+    ]
+  },
+  "structural-29": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      }
+    ],
+    "shortest": 4,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "gate",
+        "fuse",
+        "start",
+        "cargo",
+        "bell",
+        "safe"
+      ]
+    ]
+  },
+  "castle-three-waves": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west-tower",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "middle-tower",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "extend",
+        "id": "extension"
+      },
+      {
+        "kind": "dig",
+        "id": "east-tower",
+        "side": "left"
+      }
+    ],
+    "shortest": 8,
+    "destructiveActions": 3,
+    "validOrders": 1,
+    "possibleOrders": 6,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "west-tower",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east-tower",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "middle-tower",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "vault",
+        "west-powder",
+        "west-tower",
+        "west-cargo",
+        "middle-tower",
+        "relay",
+        "east-cargo",
+        "east-powder",
+        "gate",
+        "east-tower"
+      ]
+    ]
+  },
+  "deep-iron-triple": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "yard-near"
+      },
+      {
+        "kind": "dig",
+        "id": "yard-entry",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "yard-near"
+      },
+      {
+        "kind": "extend",
+        "id": "plug-1"
+      },
+      {
+        "kind": "brace",
+        "id": "yard-far"
+      },
+      {
+        "kind": "dig",
+        "id": "yard-middle",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "yard-far"
+      },
+      {
+        "kind": "dig",
+        "id": "yard-finish",
+        "side": "left"
+      }
+    ],
+    "shortest": 8,
+    "destructiveActions": 3,
+    "validOrders": 6,
+    "possibleOrders": 6,
+    "rejectedOrder": null,
+    "components": [
+      [
+        "yard-entry",
+        "yard-near",
+        "yard-heavy",
+        "yard-barrel",
+        "yard-middle",
+        "yard-relay",
+        "yard-door",
+        "yard-far",
+        "yard-finish"
+      ]
+    ]
+  },
+  "structural-22": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      }
+    ],
+    "shortest": 3,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "right"
+      }
+    ],
+    "components": [
+      [
+        "bell",
+        "fuse",
+        "wall",
+        "cargo",
+        "finish",
+        "safe"
+      ]
+    ]
+  },
+  "structural-25": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      }
+    ],
+    "shortest": 3,
+    "destructiveActions": 2,
+    "validOrders": 2,
+    "possibleOrders": 2,
+    "rejectedOrder": null,
+    "components": [
+      [
+        "start",
+        "deck",
+        "house",
+        "bell",
+        "cargo"
+      ]
+    ]
+  },
+  "structural-26": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      }
+    ],
+    "shortest": 4,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "deck",
+        "door",
+        "fuse",
+        "bell",
+        "cargo",
+        "gate",
+        "safe"
+      ]
+    ]
+  },
+  "structural-30": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "shortest": 4,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "deck",
+        "factory",
+        "bell",
+        "cargo",
+        "safe"
+      ]
+    ]
+  },
+  "structural-27": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "shortest": 3,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "lower",
+        "upper",
+        "fuse",
+        "vault",
+        "rock",
+        "cargo",
+        "wall",
+        "middle",
+        "door",
+        "safe"
+      ]
+    ]
+  },
+  "structural-37": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "shortest": 2,
+    "destructiveActions": 1,
+    "validOrders": 1,
+    "possibleOrders": 1,
+    "rejectedOrder": null,
+    "components": [
+      [
+        "start",
+        "deck",
+        "fuse",
+        "house",
+        "middle",
+        "rock",
+        "cargo",
+        "gate"
+      ]
+    ]
+  },
+  "structural-31": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "shortest": 3,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "cargo",
+        "rock",
+        "wall",
+        "middle",
+        "gate",
+        "safe"
+      ]
+    ]
+  },
+  "structural-33": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "shortest": 3,
+    "destructiveActions": 3,
+    "validOrders": 2,
+    "possibleOrders": 6,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "first",
+        "near",
+        "middle",
+        "second",
+        "far",
+        "finish",
+        "gate",
+        "safe"
+      ]
+    ]
+  },
+  "structural-34": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      }
+    ],
+    "shortest": 3,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "rock",
+        "door",
+        "factory",
+        "bell",
+        "cargo",
+        "safe"
+      ]
+    ]
+  },
+  "structural-38": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      }
+    ],
+    "shortest": 4,
+    "destructiveActions": 3,
+    "validOrders": 3,
+    "possibleOrders": 6,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "rock",
+        "near",
+        "middle",
+        "fuse",
+        "cargo",
+        "door",
+        "finish",
+        "safe"
+      ]
+    ]
+  },
+  "structural-41": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      }
+    ],
+    "shortest": 3,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "fuse",
+        "cargo",
+        "door",
+        "spring",
+        "finish",
+        "safe"
+      ]
+    ]
+  },
+  "structural-42": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "farCargo"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      }
+    ],
+    "shortest": 4,
+    "destructiveActions": 2,
+    "validOrders": 1,
+    "possibleOrders": 2,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "water",
+        "cargo",
+        "middle",
+        "deck",
+        "factory",
+        "farCargo",
+        "bell"
+      ]
+    ]
+  },
+  "structural-45": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      }
+    ],
+    "shortest": 4,
+    "destructiveActions": 3,
+    "validOrders": 3,
+    "possibleOrders": 6,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "finish",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "right"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "rock",
+        "wall",
+        "middle",
+        "water",
+        "factory",
+        "cargo",
+        "finish"
+      ]
+    ]
+  },
+  "structural-43": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "near"
+      },
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "far"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      }
+    ],
+    "shortest": 5,
+    "destructiveActions": 3,
+    "validOrders": 1,
+    "possibleOrders": 6,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "start",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "bell",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "middle",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "start",
+        "dry",
+        "near",
+        "door",
+        "water",
+        "middle",
+        "wet",
+        "far",
+        "gate",
+        "bell"
+      ]
+    ]
+  },
+  "structural-46": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 6,
+    "destructiveActions": 4,
+    "validOrders": 6,
+    "possibleOrders": 24,
+    "testedOrders": 24,
+    "exhaustive": true,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-cargo",
+        "west-inner",
+        "arch",
+        "east-inner",
+        "east-rock",
+        "load",
+        "east",
+        "east-cargo"
+      ]
+    ]
+  },
+  "structural-32": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 7,
+    "destructiveActions": 4,
+    "validOrders": 6,
+    "possibleOrders": 24,
+    "testedOrders": 24,
+    "exhaustive": true,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-inner",
+        "arch",
+        "cargo",
+        "east-inner",
+        "east-rock",
+        "load",
+        "east"
+      ]
+    ]
+  },
+  "structural-36": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 8,
+    "destructiveActions": 5,
+    "validOrders": 8,
+    "possibleOrders": 120,
+    "testedOrders": 30,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-inner",
+        "arch",
+        "cargo",
+        "load",
+        "east-inner",
+        "east-rock",
+        "water",
+        "east",
+        "water-floor",
+        "water-work"
+      ]
+    ]
+  },
+  "structural-48": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "fire-work",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 8,
+    "destructiveActions": 6,
+    "validOrders": 20,
+    "possibleOrders": 720,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "fire-work",
+        "side": "right"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-inner",
+        "arch",
+        "cargo",
+        "fire-floor",
+        "fire-work",
+        "load",
+        "factory",
+        "east-inner",
+        "east-rock",
+        "top-floor",
+        "water",
+        "upper-door",
+        "east-floor",
+        "water-work",
+        "east"
+      ]
+    ]
+  },
+  "structural-44": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "fire-work",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 10,
+    "destructiveActions": 7,
+    "validOrders": 14,
+    "possibleOrders": 5040,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "fire-work",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-inner",
+        "arch",
+        "cargo",
+        "fire-floor",
+        "fire-work",
+        "upper-west-cargo",
+        "load",
+        "factory",
+        "east-inner",
+        "east-rock",
+        "top-floor",
+        "fire-wall",
+        "wall-work",
+        "water",
+        "upper-door",
+        "wall-weight",
+        "east-floor",
+        "water-work",
+        "east"
+      ]
+    ]
+  },
+  "structural-50": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-nudge",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "fire-work",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 11,
+    "destructiveActions": 8,
+    "validOrders": 19,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "east-inner",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "dig",
+        "id": "fire-work",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "west-inner",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-nudge",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-inner",
+        "arch",
+        "cargo",
+        "fire-floor",
+        "fire-work",
+        "upper-west-cargo",
+        "load",
+        "factory",
+        "east-inner",
+        "east-rock",
+        "top-floor",
+        "fire-wall",
+        "wall-work",
+        "water",
+        "upper-door",
+        "wall-weight",
+        "upper-nudge",
+        "door-load",
+        "east-floor",
+        "east",
+        "water-work"
+      ]
+    ]
+  },
+  "deepwork-26": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 7,
+    "destructiveActions": 4,
+    "validOrders": 6,
+    "possibleOrders": 24,
+    "testedOrders": 24,
+    "exhaustive": true,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "arch",
+        "cargo",
+        "west-inner-load",
+        "east-inner-rock",
+        "east-rock",
+        "load",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-27": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 7,
+    "destructiveActions": 5,
+    "validOrders": 9,
+    "possibleOrders": 120,
+    "testedOrders": 30,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "west-rock",
+        "west-inner-rock",
+        "water",
+        "west-inner",
+        "west-cargo",
+        "water-work",
+        "water-footing",
+        "water-floor",
+        "arch",
+        "cargo",
+        "west-inner-load",
+        "east-inner-rock",
+        "load",
+        "water-load",
+        "east-rock",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-28": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 8,
+    "destructiveActions": 6,
+    "validOrders": 12,
+    "possibleOrders": 720,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "west-rock",
+        "west-inner-rock",
+        "water",
+        "west-inner",
+        "west-cargo",
+        "water-work",
+        "water-footing",
+        "water-floor",
+        "wall",
+        "wall-load",
+        "arch",
+        "cargo",
+        "wall-work",
+        "west-inner-load",
+        "east-inner-rock",
+        "load",
+        "water-load",
+        "east-rock",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-29": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 8,
+    "destructiveActions": 6,
+    "validOrders": 10,
+    "possibleOrders": 720,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "west-rock",
+        "west-inner-rock",
+        "water",
+        "west-inner",
+        "west-cargo",
+        "water-work",
+        "water-footing",
+        "water-floor",
+        "arch",
+        "cargo",
+        "wall",
+        "wall-work",
+        "west-inner-load",
+        "east-inner-rock",
+        "load",
+        "wall-load",
+        "wall-upper",
+        "water-load",
+        "wall-upper-load",
+        "east-rock",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-30": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "cross-bell",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 9,
+    "destructiveActions": 6,
+    "validOrders": 8,
+    "possibleOrders": 720,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "dig",
+        "id": "cross-bell",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "water-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "west-rock",
+        "west-inner-rock",
+        "water",
+        "west-inner",
+        "west-cargo",
+        "water-work",
+        "water-footing",
+        "water-floor",
+        "arch",
+        "cargo",
+        "west-inner-load",
+        "cross-bell",
+        "load",
+        "water-load",
+        "east-inner-rock",
+        "east-rock",
+        "east-inner",
+        "east-inner-load",
+        "east",
+        "east-cargo",
+        "east-load"
+      ]
+    ]
+  },
+  "deepwork-31": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "weight-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 7,
+    "destructiveActions": 5,
+    "validOrders": 7,
+    "possibleOrders": 120,
+    "testedOrders": 30,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "weight-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "door",
+        "weight-work",
+        "west-inner-load",
+        "east-inner-rock",
+        "east-rock",
+        "weight",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-32": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 7,
+    "destructiveActions": 5,
+    "validOrders": 13,
+    "possibleOrders": 120,
+    "testedOrders": 30,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "arch",
+        "cargo",
+        "upper-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "upper-work",
+        "upper-load",
+        "east-rock",
+        "weight",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-33": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 9,
+    "destructiveActions": 6,
+    "validOrders": 13,
+    "possibleOrders": 720,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "upper-work",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "upper-footing",
+        "upper-east-cargo",
+        "east-ledge",
+        "upper-load",
+        "arch",
+        "cargo",
+        "west-inner-load",
+        "east-inner-rock",
+        "wall-footing",
+        "weight",
+        "upper-wall",
+        "wall-weight",
+        "east-rock",
+        "wall-work",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-34": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-east-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 10,
+    "destructiveActions": 6,
+    "validOrders": 9,
+    "possibleOrders": 720,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "upper-work",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "upper-footing",
+        "upper-east-cargo",
+        "east-ledge",
+        "upper-load",
+        "arch",
+        "cargo",
+        "west-inner-load",
+        "east-inner-rock",
+        "wall-footing",
+        "west-ledge",
+        "weight",
+        "upper-wall",
+        "wall-work",
+        "wall-weight",
+        "upper-west-cargo",
+        "east-rock",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-35": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-tower",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 10,
+    "destructiveActions": 7,
+    "validOrders": 14,
+    "possibleOrders": 5040,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "upper-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-tower",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "upper-work",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "upper-footing",
+        "upper-east-cargo",
+        "east-ledge",
+        "upper-load",
+        "arch",
+        "cargo",
+        "west-inner-load",
+        "east-inner-rock",
+        "wall-footing",
+        "door-ledge",
+        "weight",
+        "upper-wall",
+        "wall-work",
+        "wall-weight",
+        "upper-door",
+        "east-rock",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "tower-ledge",
+        "upper-tower",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-36": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 8,
+    "destructiveActions": 4,
+    "validOrders": 6,
+    "possibleOrders": 24,
+    "testedOrders": 24,
+    "exhaustive": true,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-cargo",
+        "west-ramp",
+        "west-upper",
+        "west-fire",
+        "floor",
+        "weight",
+        "door",
+        "cargo",
+        "east-upper",
+        "east-fire",
+        "east-ramp",
+        "east-rock",
+        "east",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-37": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 9,
+    "destructiveActions": 5,
+    "validOrders": 11,
+    "possibleOrders": 120,
+    "testedOrders": 30,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-cargo",
+        "west-ramp",
+        "west-wall-work",
+        "west-wall",
+        "west-upper",
+        "west-fire",
+        "west-weight",
+        "floor",
+        "weight",
+        "door",
+        "cargo",
+        "east-upper",
+        "east-fire",
+        "east-ramp",
+        "east-rock",
+        "east",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-38": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 10,
+    "destructiveActions": 6,
+    "validOrders": 15,
+    "possibleOrders": 720,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "east-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-cargo",
+        "west-ramp",
+        "west-wall-work",
+        "west-wall",
+        "west-upper",
+        "west-fire",
+        "west-weight",
+        "floor",
+        "weight",
+        "door",
+        "cargo",
+        "east-upper",
+        "east-fire",
+        "east-ramp",
+        "east-wall-work",
+        "east-weight",
+        "east-wall",
+        "east-rock",
+        "east",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-39": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-wall-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "center"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 13,
+    "destructiveActions": 8,
+    "validOrders": 30,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "center"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "east-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-cargo",
+        "west-ramp",
+        "west-wall-work",
+        "west-wall",
+        "west-upper",
+        "west-fire",
+        "west-weight",
+        "floor",
+        "weight",
+        "door",
+        "cargo",
+        "center",
+        "east-upper",
+        "east-fire",
+        "water-floor",
+        "load",
+        "water",
+        "east-ramp",
+        "water-work",
+        "east-wall-work",
+        "east-weight",
+        "east-wall",
+        "east-rock",
+        "east",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-40": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-wall-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "center"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      }
+    ],
+    "shortest": 13,
+    "destructiveActions": 8,
+    "validOrders": 30,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "east",
+        "side": "left"
+      },
+      {
+        "kind": "dig",
+        "id": "west",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "center"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "east-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "west-wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-upper"
+      },
+      {
+        "kind": "cut",
+        "id": "west-upper"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-rock",
+        "west-cargo",
+        "west-ramp",
+        "west-wall-work",
+        "west-wall",
+        "upper-rock",
+        "west-weight",
+        "upper-ramp",
+        "lower-floor",
+        "west-upper",
+        "west-fire",
+        "east-ramp",
+        "east",
+        "east-rock",
+        "floor",
+        "east-cargo",
+        "east-wall-work",
+        "east-wall",
+        "east-fire",
+        "cargo",
+        "load",
+        "water",
+        "weight",
+        "door",
+        "center",
+        "east-upper",
+        "east-weight",
+        "water-floor",
+        "water-work"
+      ]
+    ]
+  },
+  "deepwork-41": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 11,
+    "destructiveActions": 7,
+    "validOrders": 12,
+    "possibleOrders": 5040,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "upper-bell",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "bell-footing",
+        "core",
+        "cargo",
+        "cargo-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "water",
+        "east-rock",
+        "load",
+        "upper-cargo",
+        "pipe",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-42": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "pipe"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 12,
+    "destructiveActions": 7,
+    "validOrders": 12,
+    "possibleOrders": 5040,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "upper-bell",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "bell-footing",
+        "core",
+        "cargo",
+        "cargo-footing",
+        "pipe-base",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "pipe",
+        "water",
+        "upper-pipe",
+        "upper-pipe-footing",
+        "east-rock",
+        "load",
+        "upper-cargo",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "upper-water-footing",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-43": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 12,
+    "destructiveActions": 8,
+    "validOrders": 14,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "upper-bell",
+        "west-rock",
+        "west-inner-rock",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "bell-footing",
+        "fire-wall",
+        "wall-work",
+        "wall-footing",
+        "core",
+        "cargo",
+        "cargo-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "water",
+        "wall-weight",
+        "east-rock",
+        "load",
+        "upper-cargo",
+        "pipe",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-44": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 12,
+    "destructiveActions": 8,
+    "validOrders": 14,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "remote-fire",
+        "west-rock",
+        "west-inner-rock",
+        "upper-bell",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "fire-wall",
+        "wall-work",
+        "wall-footing",
+        "remote-footing",
+        "bell-footing",
+        "core",
+        "cargo",
+        "cargo-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "water",
+        "wall-weight",
+        "east-rock",
+        "load",
+        "upper-cargo",
+        "pipe",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-45": {
+    "route": [
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "pipe"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "brace",
+        "id": "east-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      }
+    ],
+    "shortest": 13,
+    "destructiveActions": 8,
+    "validOrders": 14,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "remote-fire",
+        "west-rock",
+        "west-inner-rock",
+        "upper-bell",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "fire-wall",
+        "wall-work",
+        "wall-footing",
+        "remote-footing",
+        "bell-footing",
+        "core",
+        "cargo",
+        "cargo-footing",
+        "pipe-base",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "pipe",
+        "water",
+        "upper-pipe",
+        "upper-pipe-footing",
+        "wall-weight",
+        "east-rock",
+        "load",
+        "upper-cargo",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "upper-water-footing",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-46": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      }
+    ],
+    "shortest": 12,
+    "destructiveActions": 8,
+    "validOrders": 13,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "remote-fire",
+        "west-rock",
+        "west-inner-rock",
+        "upper-bell",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "fire-wall",
+        "wall-work",
+        "wall-footing",
+        "remote-footing",
+        "bell-footing",
+        "core",
+        "wood",
+        "cargo-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "water",
+        "wall-weight",
+        "east-rock",
+        "load",
+        "pipe",
+        "upper-cargo",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "ground-pipe",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-47": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo-backup"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      }
+    ],
+    "shortest": 13,
+    "destructiveActions": 8,
+    "validOrders": 13,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "remote-fire",
+        "west-rock",
+        "west-inner-rock",
+        "upper-bell",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "fire-wall",
+        "wall-work",
+        "wall-footing",
+        "remote-footing",
+        "bell-footing",
+        "core",
+        "wood",
+        "cargo-footing",
+        "backup-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "water",
+        "wall-weight",
+        "east-rock",
+        "load",
+        "pipe",
+        "cargo-backup",
+        "upper-cargo",
+        "cargo-wood",
+        "high-cargo",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "ground-pipe",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-48": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "pipe"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo-backup"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      }
+    ],
+    "shortest": 14,
+    "destructiveActions": 8,
+    "validOrders": 13,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "remote-fire",
+        "west-rock",
+        "west-inner-rock",
+        "upper-bell",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "fire-wall",
+        "wall-work",
+        "wall-footing",
+        "remote-footing",
+        "bell-footing",
+        "core",
+        "wood",
+        "cargo-footing",
+        "pipe-base",
+        "backup-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "ground-pipe",
+        "fire",
+        "pipe",
+        "water",
+        "upper-pipe",
+        "upper-pipe-footing",
+        "wall-weight",
+        "east-rock",
+        "load",
+        "cargo-backup",
+        "upper-cargo",
+        "cargo-wood",
+        "high-cargo",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "upper-water-footing",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-49": {
+    "route": [
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo-backup"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      }
+    ],
+    "shortest": 13,
+    "destructiveActions": 8,
+    "validOrders": 13,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "west"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      }
+    ],
+    "components": [
+      [
+        "west",
+        "west-load",
+        "remote-fire",
+        "west-rock",
+        "west-inner-rock",
+        "upper-bell",
+        "west-inner",
+        "west-cargo",
+        "upper-door",
+        "door-footing",
+        "fire-wall",
+        "wall-work",
+        "wall-footing",
+        "remote-footing",
+        "bell-footing",
+        "core",
+        "wood",
+        "cargo-footing",
+        "backup-footing",
+        "west-inner-load",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "fire",
+        "water",
+        "wall-weight",
+        "east-rock",
+        "load",
+        "pipe",
+        "cargo-backup",
+        "upper-cargo",
+        "cargo-wood",
+        "high-cargo",
+        "east-inner-load",
+        "east-inner",
+        "east",
+        "ground-pipe",
+        "fire-work",
+        "water-floor",
+        "water-work",
+        "east-load",
+        "east-cargo"
+      ]
+    ]
+  },
+  "deepwork-50": {
+    "route": [
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      },
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "brace",
+        "id": "west-inner-load"
+      },
+      {
+        "kind": "brace",
+        "id": "upper-cargo"
+      },
+      {
+        "kind": "brace",
+        "id": "pipe"
+      },
+      {
+        "kind": "brace",
+        "id": "cargo-backup"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "brace",
+        "id": "west-cargo"
+      },
+      {
+        "kind": "dig",
+        "id": "launch-work",
+        "side": "right"
+      }
+    ],
+    "shortest": 14,
+    "destructiveActions": 8,
+    "validOrders": 12,
+    "possibleOrders": 40320,
+    "testedOrders": 64,
+    "exhaustive": false,
+    "rejectedOrder": [
+      {
+        "kind": "dig",
+        "id": "launch-work",
+        "side": "right"
+      },
+      {
+        "kind": "cut",
+        "id": "east"
+      },
+      {
+        "kind": "cut",
+        "id": "east-inner"
+      },
+      {
+        "kind": "cut",
+        "id": "west-inner"
+      },
+      {
+        "kind": "dig",
+        "id": "water-work",
+        "side": "left"
+      },
+      {
+        "kind": "cut",
+        "id": "fire-work"
+      },
+      {
+        "kind": "cut",
+        "id": "wall-work"
+      },
+      {
+        "kind": "dig",
+        "id": "upper-bell",
+        "side": "right"
+      }
+    ],
+    "components": [
+      [
+        "west-rock",
+        "west-inner",
+        "west-inner-rock",
+        "core",
+        "wood",
+        "door-footing",
+        "bell-footing",
+        "cargo-footing",
+        "pipe-base",
+        "wall-footing",
+        "remote-footing",
+        "backup-footing",
+        "mine-floor",
+        "launch-work",
+        "launch-rock",
+        "launch-ramp",
+        "west-cargo",
+        "upper-door",
+        "remote-fire",
+        "west-inner-load",
+        "fire-wall",
+        "wall-work",
+        "fire",
+        "upper-pipe",
+        "wall-weight",
+        "east-inner-rock",
+        "fire-footing",
+        "pipe-footing",
+        "water-footing",
+        "ground-pipe",
+        "pipe",
+        "water",
+        "upper-pipe-footing",
+        "east-rock",
+        "load",
+        "cargo-backup",
+        "upper-cargo",
+        "cargo-wood",
+        "high-cargo",
+        "upper-bell",
+        "east-inner",
+        "east",
+        "east-cargo",
+        "fire-work",
+        "east-inner-load",
+        "water-floor",
+        "water-work",
+        "upper-water-footing",
+        "east-load"
+      ]
+    ]
+  }
+}
